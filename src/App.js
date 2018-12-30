@@ -75,6 +75,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div data-netlify-identity-menu></div>
+        <div data-netlify-identity-button></div>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
